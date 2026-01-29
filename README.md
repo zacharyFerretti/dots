@@ -40,5 +40,6 @@ starship preset gruvbox-rainbow -o ~/.config/starship.toml
 There's a few assumptions about what is available on your system for this ZSH config. Specifically, they are:
 1. **eza** - I always use `eza` on my systems ([repo here](https://github.com/eza-community/eza)), to install you just need to install it with your package manager of choice, for example on MacOS, run `brew install eza`.
 2. **zoxide** - I always also use `zoxide` ([repo here](https://github.com/ajeetdsouza/zoxide)), to install you alos just install it with your package manager of choice. Then you install `fzf` (fuzzy-finder). This is just another package manager install, so just `brew install fzf` on MacOS. Then you can use my `.zshrc` config file and the Zoxide config setup will be done for you!
+3. **fnm** - I also assume that FNM is installed for Node Version Management. You can install that with the command, `curl -fsSL https://fnm.vercel.app/install | bash`.
 
 With both of those installed, `ls` and `cd` will be upgraded for the modern era and using them in your terminal will use `eza` and `zoxide` respectively. Enjoy!
